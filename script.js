@@ -64,7 +64,7 @@ function startGame() {
                                     });
 
                                     // Simpan data ke local storage atau kirim ke server, disini kita hanya tampilkan
-                                    swal("Wah, Selamat🎉🎉!", `Kamu sudah mencocokan kartu dalam waktu ${timeTaken} detik!`, "success")
+                                    swal("Wah, Selamat🎉🎉!", `${username} sudah mencocokan kartu dalam waktu ${timeTaken} detik!`, "success")
                                         .then(() => {
                                             window.location.reload();
                                         });
